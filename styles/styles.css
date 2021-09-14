@@ -1,0 +1,136 @@
+/* Color codes and samples*/
+
+.dark-blue {
+  background-color: #252260;
+  width: 200px;
+  height: 100px;
+}
+.medium-blue {
+  background-color: #676ce4;
+  width: 200px;
+  height: 100px;
+}
+.light-blue {
+  background-color: #c0c0f6;
+  width: 200px;
+  height: 100px;
+}
+.yellow {
+  background-color: #eeff04;
+  width: 200px;
+  height: 100px;
+}
+
+#expanding-cards-sample {
+  display: flex;
+  width: 90vw;
+}
+
+.panel {
+  position: relative;
+  cursor: pointer;
+  margin: 0 10px;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  color: white;
+  height: 80vh;
+  flex: 0.2;
+  transition: flex 500ms ease-in;
+}
+
+.panel h3 {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 200ms ease-in 300ms;
+}
+
+.panel.active {
+  flex: 1;
+}
+
+.panel.active h3 {
+  opacity: 1;
+}
+
+/* Navbar */
+
+.navbar-expand-lg {
+  background-color: #252260;
+}
+
+.header-logo {
+  width: 150px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #c0c0f6;
+}
+
+/* Header */
+
+.next-section {
+  height: 350px;
+  background-color: #676ce4;
+}
+
+#header {
+  background-color: #252260;
+  color: white;
+}
+
+.header-header {
+  padding-top: 15%;
+  text-align: left;
+}
+
+.image-col {
+  text-align: right;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.header-image-1 {
+  width: 650px;
+  display: block;
+}
+
+.header-image-2 {
+  width: 650px;
+  display: block;
+  padding-bottom: 10%;
+  overflow: hidden;
+}
+
+.call-to-action {
+  background-color: #eeff04;
+  width: 200px;
+  border-radius: 3px;
+  margin: 7%;
+}
+
+/* Challenges */
+
+/* Judging criteria */
+
+/* Agenda */
+
+/* Prizes */
+
+/* About */
+
+/* Become a sponor */
+
+/* Existing sponsors */
+
+/* Footer */
