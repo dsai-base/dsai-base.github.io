@@ -57,6 +57,20 @@
   opacity: 1;
 }
 
+/* General */
+
+body {
+  font-family: "Palanquin", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Krona One", sans-serif;
+}
+
 /* Navbar */
 
 .navbar-expand-lg {
@@ -112,11 +126,25 @@
   overflow: hidden;
 }
 
-.call-to-action {
+.call-to-action-header {
   background-color: #eeff04;
   width: 200px;
   border-radius: 3px;
   margin: 7%;
+  padding: 3% 6%;
+  text-align: center;
+  border-radius: 25%;
+}
+
+.call-to-action-header-sponsor {
+  background-color: #c0c0f6;
+  width: 200px;
+  border-radius: 3px;
+  margin: 7%;
+  padding: 3% 6%;
+  text-align: center;
+  border-radius: 25%;
+  color: #fff;
 }
 
 /* Challenges */
@@ -126,6 +154,42 @@
 /* Agenda */
 
 /* Prizes */
+
+.prizes {
+  background-color: #eeff04;
+  text-align: center;
+}
+
+.prize-amount {
+  padding: 6% 0;
+}
+
+.prize-amount-other-prizes {
+  padding-bottom: 6%;
+}
+
+.call-to-action-prizes {
+  background-color: #252260;
+  color: #fff;
+  padding: 2% 6%;
+  margin: 6% 0;
+}
+
+.card {
+  background-color: #eeff04;
+}
+
+.card-img-top {
+  width: 150px;
+  height: 150px;
+  background-color: #676ce4;
+  border-radius: 50%;
+  border-top-left-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  /* border: 3px solid #676ce4; */
+  margin: 0 auto;
+}
 
 /* About */
 
