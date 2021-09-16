@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Color codes and samples*/
 
 .dark-blue {
@@ -25,6 +24,14 @@
 #expanding-cards-sample {
   display: flex;
   width: 90vw;
+}
+
+.expanding-cards {
+  text-align: center;
+  width: 60%;
+  /* display: block;
+  margin: 0 auto;
+  position: relative; */
 }
 
 .panel {
@@ -61,7 +68,8 @@
 /* General */
 
 body {
-  font-family: "Palanquin", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
 }
 
 h1,
@@ -69,7 +77,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Krona One", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
 }
 
 /* Navbar */
@@ -105,6 +114,15 @@ h5 {
 .header-header {
   padding-top: 15%;
   text-align: left;
+  font-size: 400%;
+  display: block;
+}
+
+.header-date {
+  padding-top: 15%;
+  text-align: left;
+  font-size: 200%;
+  margin-top: 18%;
 }
 
 .image-col {
@@ -112,16 +130,16 @@ h5 {
 }
 
 .header-text {
-  text-align: center;
+  text-align: left;
 }
 
 .header-image-1 {
-  width: 650px;
+  width: 100%;
   display: block;
 }
 
 .header-image-2 {
-  width: 650px;
+  width: 1005;
   display: block;
   padding-bottom: 10%;
   overflow: hidden;
@@ -131,20 +149,24 @@ h5 {
   background-color: #eeff04;
   width: 200px;
   border-radius: 3px;
-  margin: 7%;
-  padding: 3% 6%;
+  margin: 20% 2%;
+  padding: 2%;
   text-align: center;
-  border-radius: 25%;
+  border-radius: 5%;
+}
+
+.call-to-action-header:hover {
+  color: #676ce4;
 }
 
 .call-to-action-header-sponsor {
   background-color: #c0c0f6;
   width: 200px;
   border-radius: 3px;
-  margin: 7%;
-  padding: 3% 6%;
+  margin: 20% 2%;
+  padding: 2%;
   text-align: center;
-  border-radius: 25%;
+  border-radius: 5%;
   color: #fff;
 }
 
@@ -174,6 +196,7 @@ h5 {
   color: #fff;
   padding: 2% 6%;
   margin: 6% 0;
+  border-radius: 15%;
 }
 
 .card {
@@ -194,177 +217,63 @@ h5 {
 
 /* About */
 
-/* Become a sponor */
-
-.becomeSponsor {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+#about {
+  background-color: #c0c0f6;
   text-align: center;
-  color: #fff;
-  padding: 20px;
-  background-color: #252260;
 }
 
-.becomeSponsor h1 {
-  /* width: 25%; */
-  margin: 25px auto;
+.about-dsai,
+.about-d4sg {
+  padding: 3% 2%;
+  color: #252260;
 }
 
-.paragraph {
-  max-width: 70%;
-  margin: 25px auto;
+.about-heading {
+  padding: 3% 0;
 }
 
-.becomeSponsor p {
-  margin: 50px auto;
-  font-size: 25px;
-}
-
-.btnSponsor {
-  border: none;
-  padding: 20px;
-  font-size: 20px;
-  border-radius: 15px;
-  margin-top: 20px;
-  background-color: #c0c0f6;
-}
-
-/* Existing sponsors */
-
-/* Footer */
-=======
-/* Color codes and samples*/
-
-.dark-blue {
-  background-color: #252260;
-  width: 200px;
-  height: 100px;
-}
-.medium-blue {
-  background-color: #676ce4;
-  width: 200px;
-  height: 100px;
-}
-.light-blue {
-  background-color: #c0c0f6;
-  width: 200px;
-  height: 100px;
-}
-.yellow {
-  background-color: #eeff04;
-  width: 200px;
-  height: 100px;
-}
-
-#expanding-cards-sample {
-  display: flex;
-  width: 90vw;
-}
-
-.panel {
-  position: relative;
-  cursor: pointer;
-  margin: 0 10px;
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 50px;
-  color: white;
-  height: 80vh;
-  flex: 0.2;
-  transition: flex 500ms ease-in;
-}
-
-.panel h3 {
-  position: absolute;
-  bottom: 25px;
-  left: 25px;
-  margin: 0;
-  opacity: 0;
-  transition: opacity 200ms ease-in 300ms;
-}
-
-.panel.active {
-  flex: 1;
-}
-
-.panel.active h3 {
-  opacity: 1;
-}
-
-/* Navbar */
-
-.navbar-expand-lg {
-  background-color: #252260;
-}
-
-.header-logo {
-  width: 150px;
-}
-
-.nav-link {
-  color: #fff;
-}
-
-.nav-link:hover {
-  color: #c0c0f6;
-}
-
-/* Header */
-
-.next-section {
-  height: 350px;
-  background-color: #676ce4;
-}
-
-#header {
-  background-color: #252260;
-  color: white;
-}
-
-.header-header {
-  padding-top: 15%;
+.about-text {
   text-align: left;
+  line-height: 2.5;
+  color: rgb(82, 79, 79);
 }
 
-.image-col {
-  text-align: right;
-}
+/* Become a sponor */
 
-.header-text {
+.becomeSponsor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  color: #fff;
+  padding: 20px;
+  background-color: #252260;
 }
 
-.header-image-1 {
-  width: 650px;
-  display: block;
+.becomeSponsor h1 {
+  /* width: 25%; */
+  margin: 25px auto;
 }
 
-.header-image-2 {
-  width: 650px;
-  display: block;
-  padding-bottom: 10%;
-  overflow: hidden;
+.paragraph {
+  max-width: 70%;
+  margin: 25px auto;
 }
 
-.call-to-action {
-  background-color: #eeff04;
-  width: 200px;
-  border-radius: 3px;
-  margin: 7%;
+.becomeSponsor p {
+  margin: 50px auto;
+  font-size: 25px;
 }
 
-/* Challenges */
-
-/* Judging criteria */
-
-/* Agenda */
-
-/* Prizes */
-
-/* About */
+.btnSponsor {
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-color: #c0c0f6;
+}
 
 /* Become a sponor */
 
@@ -405,4 +314,6 @@ h5 {
 /* Existing sponsors */
 
 /* Footer */
->>>>>>> 775037829bc1b6ed10c686594baaf4b070295418
+
+@media (max-width: 962px) {
+}
