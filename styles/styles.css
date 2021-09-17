@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Color codes and samples*/
 
 .dark-blue {
@@ -156,40 +155,57 @@ h5 {
 
 /* Prizes */
 
+#prizes-content {
+  background-color: #252260;
+  padding: 30px;
+  color: #fff;
+}
+
 .prizes {
-  background-color: #eeff04;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prize-amount,
+.prize-amount-other-prizes,
+.prizes-container {
+  margin-bottom: 30px;
+}
+
+.prize-amount-other-prizes,
+.prizes-cards p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.prizes-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.prizes-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 200px;
+
   text-align: center;
 }
 
-.prize-amount {
-  padding: 6% 0;
-}
-
-.prize-amount-other-prizes {
-  padding-bottom: 6%;
-}
-
-.call-to-action-prizes {
-  background-color: #252260;
-  color: #fff;
-  padding: 2% 6%;
-  margin: 6% 0;
-}
-
-.card {
-  background-color: #eeff04;
-}
-
-.card-img-top {
-  width: 150px;
-  height: 150px;
+.prizes-image-container {
+  width: 100px;
   background-color: #676ce4;
-  border-radius: 50%;
-  border-top-left-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  /* border: 3px solid #676ce4; */
-  margin: 0 auto;
+  border-radius: 100%;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.prizes-image-container img {
+  width: 100%;
 }
 
 /* About */
@@ -228,181 +244,9 @@ h5 {
   font-size: 20px;
   border-radius: 15px;
   margin-top: 20px;
-  background-color: #c0c0f6;
-}
-
-/* Existing sponsors */
-
-/* Footer */
-=======
-/* Color codes and samples*/
-
-.dark-blue {
-  background-color: #252260;
-  width: 200px;
-  height: 100px;
-}
-.medium-blue {
-  background-color: #676ce4;
-  width: 200px;
-  height: 100px;
-}
-.light-blue {
-  background-color: #c0c0f6;
-  width: 200px;
-  height: 100px;
-}
-.yellow {
-  background-color: #eeff04;
-  width: 200px;
-  height: 100px;
-}
-
-#expanding-cards-sample {
-  display: flex;
-  width: 90vw;
-}
-
-.panel {
-  position: relative;
-  cursor: pointer;
-  margin: 0 10px;
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 50px;
-  color: white;
-  height: 80vh;
-  flex: 0.2;
-  transition: flex 500ms ease-in;
-}
-
-.panel h3 {
-  position: absolute;
-  bottom: 25px;
-  left: 25px;
-  margin: 0;
-  opacity: 0;
-  transition: opacity 200ms ease-in 300ms;
-}
-
-.panel.active {
-  flex: 1;
-}
-
-.panel.active h3 {
-  opacity: 1;
-}
-
-/* Navbar */
-
-.navbar-expand-lg {
-  background-color: #252260;
-}
-
-.header-logo {
-  width: 150px;
-}
-
-.nav-link {
-  color: #fff;
-}
-
-.nav-link:hover {
-  color: #c0c0f6;
-}
-
-/* Header */
-
-.next-section {
-  height: 350px;
-  background-color: #676ce4;
-}
-
-#header {
-  background-color: #252260;
-  color: white;
-}
-
-.header-header {
-  padding-top: 15%;
-  text-align: left;
-}
-
-.image-col {
-  text-align: right;
-}
-
-.header-text {
-  text-align: center;
-}
-
-.header-image-1 {
-  width: 650px;
-  display: block;
-}
-
-.header-image-2 {
-  width: 650px;
-  display: block;
-  padding-bottom: 10%;
-  overflow: hidden;
-}
-
-.call-to-action {
-  background-color: #eeff04;
-  width: 200px;
-  border-radius: 3px;
-  margin: 7%;
-}
-
-/* Challenges */
-
-/* Judging criteria */
-
-/* Agenda */
-
-/* Prizes */
-
-/* About */
-
-/* Become a sponor */
-
-.becomeSponsor {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
-
-  padding: 20px;
-  background-color: #252260;
-}
-
-.becomeSponsor h1 {
-  /* width: 25%; */
-  margin: 25px auto;
-}
-.paragraph {
-  max-width: 70%;
-  margin: 25px auto;
-}
-.becomeSponsor p {
-  margin: 50px auto;
-  font-size: 25px;
-}
-
-.btnSponsor {
-  border: none;
-  padding: 20px;
-  font-size: 20px;
-  border-radius: 15px;
-  margin-top: 20px;
   background-color: #eeff04;
 }
 
 /* Existing sponsors */
 
 /* Footer */
->>>>>>> 775037829bc1b6ed10c686594baaf4b070295418
