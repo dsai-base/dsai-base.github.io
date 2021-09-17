@@ -178,18 +178,30 @@ h5 {
 
 /* Prizes */
 
+#prizes-content {
+  background-color: #252260;
+  padding: 30px;
+  color: #fff;
+}
+
 .prizes {
-  background-color: #eeff04;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prize-amount,
+.prize-amount-other-prizes,
+.prizes-container {
+  margin-bottom: 30px;
+}
+
+
+.prize-amount-other-prizes,
+.prizes-cards p {
+  font-weight: bold;
+  font-size: 18px;
   text-align: center;
-}
-
-.prize-amount {
-  padding: 6% 0;
-}
-
-.prize-amount-other-prizes {
-  padding-bottom: 6%;
-}
 
 .call-to-action-prizes {
   background-color: #252260;
@@ -199,20 +211,33 @@ h5 {
   border-radius: 15%;
 }
 
-.card {
-  background-color: #eeff04;
+.prizes-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.card-img-top {
+.prizes-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 150px;
-  height: 150px;
+  height: 200px;
+
+  text-align: center;
+}
+
+.prizes-image-container {
+  width: 100px;
   background-color: #676ce4;
-  border-radius: 50%;
-  border-top-left-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  /* border: 3px solid #676ce4; */
-  margin: 0 auto;
+  border-radius: 100%;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.prizes-image-container img {
+  width: 100%;
 }
 
 /* About */
@@ -237,6 +262,23 @@ h5 {
   line-height: 2.5;
   color: rgb(82, 79, 79);
 }
+
+/* Participant Registration */
+
+# participant-registration {
+  background-color: #c0c0f6;
+  text-align: center;
+}
+
+.participant-register {
+  padding: 3% 2%;
+  color: #252260;
+}
+
+.participant-register-heading {
+  padding: 3% 0;
+}
+
 
 /* Become a sponor */
 
@@ -272,7 +314,7 @@ h5 {
   font-size: 20px;
   border-radius: 15px;
   margin-top: 20px;
-  background-color: #c0c0f6;
+  background-color: #eeff04;
 }
 
 /* Become a sponor */
@@ -315,18 +357,93 @@ h5 {
 
 /* Footer */
 
-@media (max-width: 962px) {
+.footer {
+  /* height: 300px; */
+  background-color: #252260;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
+
+.footer-content {
+  display: flex;
+  width: 100%;
+}
+
+.footer-logo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-image {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-image img {
+  width: 300px;
+}
+
+.social-medias {
+  height: 25px;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-medias a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-medias a img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.footer-navigation {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-navigation ul {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
+}
+
+/* Resposnive settings */
+
+/* @media (max-width: 962px) {
+} */
 
 /* ---- reset ---- */
 body {
   margin: 0;
   font: normal 75% Arial, Helvetica, sans-serif;
 }
+
 canvas {
   display: block;
   vertical-align: bottom;
 }
+
 /* ---- particles.js container ---- */
 #particles-js {
   position: absolute;
@@ -339,6 +456,7 @@ canvas {
   background-size: cover;
   background-position: 50% 50%;
 }
+
 /* ---- stats.js ---- */
 .count-particles {
   background: #000022;
@@ -355,19 +473,23 @@ canvas {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
+
 .js-count-particles {
   font-size: 1.1em;
 }
+
 #stats,
 .count-particles {
   -webkit-user-select: none;
   margin-top: 5px;
   margin-left: 5px;
 }
+
 #stats {
   border-radius: 3px 3px 0 0;
   overflow: hidden;
 }
+
 .count-particles {
   border-radius: 0 0 3px 3px;
 }
