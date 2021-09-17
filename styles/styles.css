@@ -1,4 +1,4 @@
-/* Color codes and samples*/
+/* Color codes and samples
 
 .dark-blue {
   background-color: #252260;
@@ -21,51 +21,7 @@
   height: 100px;
 }
 
-#expanding-cards-sample {
-  display: flex;
-  width: 90vw;
-}
-
-.expanding-cards {
-  text-align: center;
-  width: 60%;
-  /* display: block;
-  margin: 0 auto;
-  position: relative; */
-}
-
-.panel {
-  position: relative;
-  cursor: pointer;
-  margin: 0 10px;
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 50px;
-  color: white;
-  height: 80vh;
-  flex: 0.2;
-  transition: flex 500ms ease-in;
-}
-
-.panel h3 {
-  position: absolute;
-  bottom: 25px;
-  left: 25px;
-  margin: 0;
-  opacity: 0;
-  transition: opacity 200ms ease-in 300ms;
-}
-
-.panel.active {
-  flex: 1;
-}
-
-.panel.active h3 {
-  opacity: 1;
-}
-
-/* General */
+/* General  */
 
 body {
   font-family: "Lato", sans-serif;
@@ -101,69 +57,47 @@ h5 {
 
 /* Header */
 
-.next-section {
-  height: 350px;
-  background-color: #676ce4;
-}
-
 #header {
-  background-color: #252260;
   color: white;
 }
 
-.header-header {
-  padding-top: 15%;
+.header-title {
+  /* padding-top: 15%; */
   text-align: left;
   font-size: 400%;
   display: block;
 }
 
 .header-date {
-  padding-top: 15%;
+  /* padding-top: 15%; */
   text-align: left;
   font-size: 200%;
-  margin-top: 18%;
-}
-
-.image-col {
-  text-align: right;
+  /* margin-top: 18%; */
 }
 
 .header-text {
   text-align: left;
 }
 
-.header-image-1 {
-  width: 100%;
-  display: block;
-}
-
-.header-image-2 {
-  width: 1005;
-  display: block;
-  padding-bottom: 10%;
-  overflow: hidden;
-}
-
-.call-to-action-header {
+.call-to-action-header-button {
   background-color: #eeff04;
   width: 200px;
   border-radius: 3px;
-  margin: 20% 2%;
+  /* margin: 20% 2%; */
   padding: 2%;
   text-align: center;
   border-radius: 5%;
 }
 
-.call-to-action-header:hover {
+.call-to-action-header-button:hover {
   color: #676ce4;
 }
 
-.call-to-action-header-sponsor {
+.call-to-action-header-button-sponsor {
   background-color: #c0c0f6;
   width: 200px;
   border-radius: 3px;
-  margin: 20% 2%;
+  /* margin: 20% 2%; */
   padding: 2%;
   text-align: center;
   border-radius: 5%;
@@ -171,6 +105,45 @@ h5 {
 }
 
 /* Challenges */
+
+#expanding-cards-sample {
+  display: flex;
+  width: 90vw;
+}
+.expanding-cards {
+  text-align: center;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+.panel {
+  position: relative;
+  cursor: pointer;
+  margin: 0 10px;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  color: white;
+  height: 80vh;
+  flex: 0.2;
+  transition: flex 500ms ease-in;
+}
+.panel h3 {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 200ms ease-in 300ms;
+}
+.panel.active {
+  flex: 1;
+}
+.panel.active h3 {
+  opacity: 1;
+}
 
 /* Judging criteria */
 
@@ -190,6 +163,7 @@ h5 {
   justify-content: center;
   align-items: center;
 }
+
 .prize-amount,
 .prize-amount-other-prizes,
 .prizes-container {
@@ -204,7 +178,7 @@ h5 {
 }
 
 .call-to-action-prizes {
-  background-color: #252260;
+  background-color: #eeff04;
   color: #fff;
   padding: 2% 6%;
   margin: 6% 0;
@@ -224,7 +198,6 @@ h5 {
   justify-content: center;
   width: 150px;
   height: 200px;
-
   text-align: center;
 }
 
@@ -293,7 +266,7 @@ h5 {
 }
 
 .becomeSponsor h1 {
-  /* width: 25%; */
+  width: 25%;
   margin: 25px auto;
 }
 
@@ -302,42 +275,6 @@ h5 {
   margin: 25px auto;
 }
 
-.becomeSponsor p {
-  margin: 50px auto;
-  font-size: 25px;
-}
-
-.btnSponsor {
-  border: none;
-  padding: 20px;
-  font-size: 20px;
-  border-radius: 15px;
-  margin-top: 20px;
-  background-color: #eeff04;
-}
-
-/* Become a sponor */
-
-.becomeSponsor {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
-
-  padding: 20px;
-  background-color: #252260;
-}
-
-.becomeSponsor h1 {
-  /* width: 25%; */
-  margin: 25px auto;
-}
-.paragraph {
-  max-width: 70%;
-  margin: 25px auto;
-}
 .becomeSponsor p {
   margin: 50px auto;
   font-size: 25px;
@@ -354,10 +291,26 @@ h5 {
 
 /* Existing sponsors */
 
+/* Participant Registration */
+
+#participant-registration {
+  background-color: #c0c0f6;
+  text-align: center;
+}
+
+.participant-register {
+  padding: 3% 2%;
+  color: #252260;
+}
+
+.participant-register-heading {
+  padding: 3% 0;
+}
+
 /* Footer */
 
 .footer {
-  /* height: 300px; */
+  height: 300px;
   background-color: #252260;
   display: flex;
   flex-direction: column;
@@ -369,6 +322,7 @@ h5 {
   display: flex;
   width: 100%;
 }
+
 .footer-logo {
   width: 50%;
   display: flex;
@@ -376,11 +330,13 @@ h5 {
   justify-content: center;
   align-items: center;
 }
+
 .footer-image {
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
 }
+
 .footer-image img {
   width: 300px;
 }
@@ -391,6 +347,7 @@ h5 {
   display: flex;
   justify-content: space-around;
 }
+
 .social-medias a {
   color: #fff;
   text-decoration: none;
@@ -422,5 +379,67 @@ h5 {
   color: #fff;
   text-align: center;
 }
-@media (max-width: 962px) {
+
+/* Resposnive settings */
+
+/* @media (max-width: 962px) {
+} */
+
+/* Particles.js Module */
+
+/* ---- reset ---- */
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #252260;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
 }
