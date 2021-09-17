@@ -236,6 +236,22 @@ h5 {
   color: rgb(82, 79, 79);
 }
 
+/* Participant Registration */
+
+#participant-registration {
+  background-color: #c0c0f6;
+  text-align: center;
+}
+
+.participant-register {
+  padding: 3% 2%;
+  color: #252260;
+}
+
+.participant-register-heading {
+  padding: 3% 0;
+}
+
 /* Become a sponor */
 
 .becomeSponsor {
