@@ -196,12 +196,12 @@ h5 {
   margin-bottom: 30px;
 }
 
-
 .prize-amount-other-prizes,
 .prizes-cards p {
   font-weight: bold;
   font-size: 18px;
   text-align: center;
+}
 
 .call-to-action-prizes {
   background-color: #252260;
@@ -265,7 +265,7 @@ h5 {
 
 /* Participant Registration */
 
-# participant-registration {
+#participant-registration {
   background-color: #c0c0f6;
   text-align: center;
 }
@@ -278,7 +278,6 @@ h5 {
 .participant-register-heading {
   padding: 3% 0;
 }
-
 
 /* Become a sponor */
 
@@ -425,4 +424,3 @@ h5 {
 }
 @media (max-width: 962px) {
 }
-
