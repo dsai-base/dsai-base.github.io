@@ -1,4 +1,4 @@
-/* Color codes and samples*/
+/* Color codes and samples
 
 .dark-blue {
   background-color: #252260;
@@ -21,51 +21,7 @@
   height: 100px;
 }
 
-#expanding-cards-sample {
-  display: flex;
-  width: 90vw;
-}
-
-.expanding-cards {
-  text-align: center;
-  width: 60%;
-  /* display: block;
-  margin: 0 auto;
-  position: relative; */
-}
-
-.panel {
-  position: relative;
-  cursor: pointer;
-  margin: 0 10px;
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 50px;
-  color: white;
-  height: 80vh;
-  flex: 0.2;
-  transition: flex 500ms ease-in;
-}
-
-.panel h3 {
-  position: absolute;
-  bottom: 25px;
-  left: 25px;
-  margin: 0;
-  opacity: 0;
-  transition: opacity 200ms ease-in 300ms;
-}
-
-.panel.active {
-  flex: 1;
-}
-
-.panel.active h3 {
-  opacity: 1;
-}
-
-/* General */
+/* General  */
 
 body {
   font-family: "Lato", sans-serif;
@@ -101,69 +57,47 @@ h5 {
 
 /* Header */
 
-.next-section {
-  height: 350px;
-  background-color: #676ce4;
-}
-
 #header {
-  /* background-color: #252260; */
   color: white;
 }
 
-.header-header {
-  padding-top: 15%;
+.header-title {
+  /* padding-top: 15%; */
   text-align: left;
   font-size: 400%;
   display: block;
 }
 
 .header-date {
-  padding-top: 15%;
+  /* padding-top: 15%; */
   text-align: left;
   font-size: 200%;
-  margin-top: 18%;
-}
-
-.image-col {
-  text-align: right;
+  /* margin-top: 18%; */
 }
 
 .header-text {
   text-align: left;
 }
 
-.header-image-1 {
-  width: 100%;
-  display: block;
-}
-
-.header-image-2 {
-  width: 1005;
-  display: block;
-  padding-bottom: 10%;
-  overflow: hidden;
-}
-
-.call-to-action-header {
+.call-to-action-header-button {
   background-color: #eeff04;
   width: 200px;
   border-radius: 3px;
-  margin: 20% 2%;
+  /* margin: 20% 2%; */
   padding: 2%;
   text-align: center;
   border-radius: 5%;
 }
 
-.call-to-action-header:hover {
+.call-to-action-header-button:hover {
   color: #676ce4;
 }
 
-.call-to-action-header-sponsor {
+.call-to-action-header-button-sponsor {
   background-color: #c0c0f6;
   width: 200px;
   border-radius: 3px;
-  margin: 20% 2%;
+  /* margin: 20% 2%; */
   padding: 2%;
   text-align: center;
   border-radius: 5%;
@@ -171,6 +105,45 @@ h5 {
 }
 
 /* Challenges */
+
+#expanding-cards-sample {
+  display: flex;
+  width: 90vw;
+}
+.expanding-cards {
+  text-align: center;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+.panel {
+  position: relative;
+  cursor: pointer;
+  margin: 0 10px;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  color: white;
+  height: 80vh;
+  flex: 0.2;
+  transition: flex 500ms ease-in;
+}
+.panel h3 {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 200ms ease-in 300ms;
+}
+.panel.active {
+  flex: 1;
+}
+.panel.active h3 {
+  opacity: 1;
+}
 
 /* Judging criteria */
 
@@ -190,21 +163,22 @@ h5 {
   justify-content: center;
   align-items: center;
 }
+
 .prize-amount,
 .prize-amount-other-prizes,
 .prizes-container {
   margin-bottom: 30px;
 }
 
-
 .prize-amount-other-prizes,
 .prizes-cards p {
   font-weight: bold;
   font-size: 18px;
   text-align: center;
+}
 
 .call-to-action-prizes {
-  background-color: #252260;
+  background-color: #eeff04;
   color: #fff;
   padding: 2% 6%;
   margin: 6% 0;
@@ -224,7 +198,6 @@ h5 {
   justify-content: center;
   width: 150px;
   height: 200px;
-
   text-align: center;
 }
 
@@ -263,23 +236,6 @@ h5 {
   color: rgb(82, 79, 79);
 }
 
-/* Participant Registration */
-
-# participant-registration {
-  background-color: #c0c0f6;
-  text-align: center;
-}
-
-.participant-register {
-  padding: 3% 2%;
-  color: #252260;
-}
-
-.participant-register-heading {
-  padding: 3% 0;
-}
-
-
 /* Become a sponor */
 
 .becomeSponsor {
@@ -294,7 +250,7 @@ h5 {
 }
 
 .becomeSponsor h1 {
-  /* width: 25%; */
+  width: 25%;
   margin: 25px auto;
 }
 
@@ -303,42 +259,6 @@ h5 {
   margin: 25px auto;
 }
 
-.becomeSponsor p {
-  margin: 50px auto;
-  font-size: 25px;
-}
-
-.btnSponsor {
-  border: none;
-  padding: 20px;
-  font-size: 20px;
-  border-radius: 15px;
-  margin-top: 20px;
-  background-color: #eeff04;
-}
-
-/* Become a sponor */
-
-.becomeSponsor {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
-
-  padding: 20px;
-  background-color: #252260;
-}
-
-.becomeSponsor h1 {
-  /* width: 25%; */
-  margin: 25px auto;
-}
-.paragraph {
-  max-width: 70%;
-  margin: 25px auto;
-}
 .becomeSponsor p {
   margin: 50px auto;
   font-size: 25px;
@@ -355,10 +275,26 @@ h5 {
 
 /* Existing sponsors */
 
+/* Participant Registration */
+
+#participant-registration {
+  background-color: #c0c0f6;
+  text-align: center;
+}
+
+.participant-register {
+  padding: 3% 2%;
+  color: #252260;
+}
+
+.participant-register-heading {
+  padding: 3% 0;
+}
+
 /* Footer */
 
 .footer {
-  /* height: 300px; */
+  height: 300px;
   background-color: #252260;
   display: flex;
   flex-direction: column;
@@ -433,11 +369,9 @@ h5 {
 /* @media (max-width: 962px) {
 } */
 
+/* Particles.js Module */
+
 /* ---- reset ---- */
-body {
-  margin: 0;
-  font: normal 75% Arial, Helvetica, sans-serif;
-}
 
 canvas {
   display: block;
