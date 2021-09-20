@@ -106,6 +106,113 @@ h5 {
 
 /* Challenges */
 
+#challenges {
+  background-color: #c0c0f6;
+  width:100%;
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+}
+.challenges_oversec{
+  text-align: center;
+  width: 100%;
+  background-color: #c0c0f6;
+  color: #252260;
+}
+.challenges_cardsec{
+  margin: auto;
+  position: relative;
+  background-color: #c0c0f6;
+  width:auto;
+  text-align: center;
+  }
+
+.challenge{
+  text-align: center;
+  padding: 30px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+
+}
+.challenge-body{
+  background-color:  #252260;
+  padding: 10px;
+  font-weight: 400;
+  position: relative;
+  height:250px;
+  padding-bottom: 30px;
+  border-radius: 0px 0px 10px 50px;
+  }
+
+.card-icon{
+  position: absolute;
+  margin:57% 31% 0% 39%;
+  width:22%;
+  z-index:2;
+}
+
+.card-circle{
+  position: absolute;
+  border-radius: 20px;
+  margin:52.5% 32.5% 0% 34%;
+  width:32%;
+  z-index:1;
+}
+
+.challenge-title{
+  padding-top: 20%;
+  padding-bottom: 15%;
+  height:45%;
+}
+.challenge-link{
+  text-decoration: none;
+  color:#fff;
+}
+a.challenge-link:hover,a.challenge-link:active
+{color: #eeff04;
+font-size: 110%
+}
+
+.challenge-text{
+  padding-bottom:5%;
+}
+@media only screen and (max-width: 768px) {
+.challenge-text {
+    font-size: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .challenges_oversec{
+    position: absolute;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  background-color: #c0c0f6;
+  color: #252260;
+}
+}
+.cardimg{
+  width:5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .challenge-body{
+    background-color:  #252260;
+    padding: 10px;
+    font-weight: 400;
+    position: relative;
+    width:auto;
+    }
+  }
+.cardchallenge{
+  border-radius: 15px 50px 30px 50px;
+}
+.card-img-top{
+  border-radius:15px 50px 0px 0px;
+}
+
+
+
 #expanding-cards-sample {
   display: flex;
   width: 90vw;

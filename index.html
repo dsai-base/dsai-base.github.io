@@ -1,364 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Bootstraop -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,300&display=swap"
-      rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles/styles.css" />
-    <title>D4SG Hakathon</title>
-  </head>
-  <body>
 
-    <section id="navbar">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img
-              src="styles\images\D4SG-RGB-Logo-RIcon-Background-Colour-3.jpg"
-              alt="navbar-logo"
-              width="100"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#challenges">
-                  Challenges
-                </a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#judging-criteria">
-                  Judging criteria
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#agenda"
-                  >Agenda
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#about">
-                  About D4SG
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#existing-sponsors"
-                >Our sponsors
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstraop -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,300&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css" />
+  <title>D4SG Hakathon</title>
+</head>
 
-    <section id='header'>
-      <div class="container-fluid header-container">
-        <!-- particles.js container -->
-        <div id="particles-js" style='height: 600px;'></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h1 class='header-title'>
-                D4SG Hackathon
-              </h1>
-              <h5 class='header-text'>
-                Promoting social good through technology and computer science.
-              </h5>
-            </div>
-            <div class="col-12">
-              <button type="button" class="btn call-to-action-header-button">
-                <h5>Register as a participant</h5>
-              </button>
-            </div>
-            <div class="col-12">
-              <button type="button" class="btn call-to-action-header-button-sponsor">
-                <h5>Register as a sponsor</h5>
-              </button>
-            </div>
-            <div class="col-12">
-              <h4 class='header-date'>
-                Friday 26th November – Sunday 28th November 2021
-              </h4>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </section>
+<body>
 
-    <section style='height: 400px;'></section>
-
-    <section id="challenges">
-      <h1>Challenges - Daniel</h1>
-      <div id="expanding-cards-sample">
-        <div
-          role="button"
-          class="panel"
-          style="background-image: url(https://picsum.photos/600)"
-        >
-          <h3>Lorem Ipsum</h3>
-        </div>
-        <div
-          role="button"
-          class="panel"
-          style="background-image: url(https://picsum.photos/601)"
-        >
-          <h3>Lorem Ipsum</h3>
-        </div>
-        <div
-          role="button"
-          class="panel active"
-          style="background-image: url(https://picsum.photos/602)"
-        >
-          <h3>Lorem Ipsum</h3>
-        </div>
-        <div
-          role="button"
-          class="panel"
-          style="background-image: url(https://picsum.photos/603)"
-        >
-          <h3>Lorem Ipsum</h3>
-        </div>
-        <div
-          role="button"
-          class="panel"
-          style="background-image: url(https://picsum.photos/604)"
-        >
-          <h3>Lorem Ipsum</h3>
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="styles\images\D4SG-RGB-Logo-RIcon-Background-Colour-3.jpg" alt="navbar-logo" width="100" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#challenges">
+                Challenges
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#judging-criteria">
+                Judging criteria
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#agenda">Agenda
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">
+                About D4SG
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#existing-sponsors">Our sponsors
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </nav>
+  </section>
 
-    <section id="judging-criteria">
-      <h1>Hello from judging criteria</h1>
-    </section>
 
-    <section id="agenda">
-      <h1>Hello from agenda</h1>
-    </section>
-
-    <section id="prizes-content">
-      <div class="container-fluid prizes">
-        <h1 class="prize-amount">$10,000</h1>
-        <p class="prize-amount-other-prizes">
-          A pool and additional prizes will be allocated to the following
-          Awards:
-        </p>
-        <div class="container prizes-container">
-          <div class="prizes-cards">
-            <div class="prizes-image-container">
-              <img src="./styles/images/graph.svg" alt="graph" />
-            </div>
-            <p>Best Data Viz</p>
-          </div>
-          <div class="prizes-cards">
-            <div class="prizes-image-container">
-              <img src="./styles/images/puzzle.svg" alt="graph" />
-            </div>
-            <p>Best Overall Solution</p>
-          </div>
-          <div class="prizes-cards">
-            <div class="prizes-image-container">
-              <img src="./styles/images/frame.svg" alt="graph" />
-            </div>
-            <p>Best Design / User Experience</p>
-          </div>
-          <div class="prizes-cards">
-            <div class="prizes-image-container">
-              <img src="./styles/images/handheart.svg" alt="graph" />
-            </div>
-            <p>Most Unique Solution</p>
-          </div>
-          <div class="prizes-cards">
-            <div class="prizes-image-container">
-              <img src="./styles/images/educate.svg" alt="graph" />
-            </div>
-            <p>Best Project Presentation</p>
-          </div>
-          </div>
-          <div class="btn-container">
-            <button class="btnSponsor">Become a Participant</button>
-          </div>
-        </div>
-      </div>
-    </section>
-        
-    <section id="about">
+  <section id='header'>
+    <div class="container-fluid header-container">
+      <!-- particles.js container -->
+      <div id="particles-js" style='height: 600px;'></div>
       <div class="container">
-        <div class="about-d4sg">
-          <h1 class="about-heading">What is D4SG?</h1>
-          <div class="row">
-            <div class="col-12 col-lg-6 col-md-6 about-image">
-              <img src="styles\images\D4SG-RGB-Logo-RIcon-Colour-4.png" alt="about image" style="width: 50%"/>
-            </div>
-            <div class="col-12 col-lg-6 col-md-6">
-              <p class="about-text">
-                The D4SG (Data for Social Good) Hackathon aims to promote social
-                good through technology and computer science, and to drive
-                sustained innovation and crowd-source solutions to address
-                pressing real-life business problems and social issues.
-              </p>
-              <p class="about-text">
-                We are bringing together +100 passionate and innovative
-                technologists to build software solutions that address specific
-                challenges facing industry today. The panel of subject matter
-                experts will ensure an accurate, fair and transparent process.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="about-dsai">
-          <h1 class="about-heading">About DSAi</h1>
-          <div class="row">
-            <div class="col-12 col-lg-6 col-md-6 about-image">
-              <img
-                src="styles\images\white_logo.png"
-                alt="about image"
-                style="width: 50%"
-              />
-            </div>
-            <div class="col-12 col-lg-6 col-md-6">
-              <p class="about-text">
-                The Data Science and AI Association of Australia is a
-                non-for-profit association determined to connect the data
-                scientist and machine learning community of Australia seeking to
-                gain and share knowledge, grow their network and collaborate on
-                projects.
-              </p>
-              <p class="about-text">
-                Since its inception in 2019, DSAi has committed to hosting and
-                organising a range of activities like meetups, workshops, study
-                groups and publications, aimed to helping professionals
-                understand industry trends, employment scenarios and stay on top
-                of the latest research.
-            </p>
-            </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="becomeSponsor">
         <div class="row">
-          <div class="col">
-            <h1>Why Should you partner</h1>
-            <h1>the D4SG Hackathon?</h1>
+          <div class="col-12">
+            <h1 class='header-title'>
+              D4SG Hackathon
+            </h1>
+            <h5 class='header-text'>
+              Promoting social good through technology and computer science.
+            </h5>
+          </div>
+          <div class="col-12">
+            <button type="button" class="btn call-to-action-header-button">
+              <h5>Register as a participant</h5>
+            </button>
+          </div>
+          <div class="col-12">
+            <button type="button" class="btn call-to-action-header-button-sponsor">
+              <h5>Register as a sponsor</h5>
+            </button>
+          </div>
+          <div class="col-12">
+            <h4 class='header-date'>
+              Friday 26th November – Sunday 28th November 2021
+            </h4>
           </div>
         </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="challenges">
+    <div class="container">
+      <div class="challenges_oversec">
+        <h1>Challenges</h1>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-col-xl-6 container challenges_cardsec">
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\defence.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\card-icon_1.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Government - Defence
+              </a></h5>
+              <p class="challenge-text">How to build challenger AI models for wargame scenarios.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\solarhouse.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\buildings.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Property Sustainable solutions
+              </a></h5>
+              <p class="challenge-text">How governments and property developers can work together for sustainable new developments.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\cotton.jpg" class="card-img-top" "cardimg" alt="...">
+            <img src="styles\images\t-shirt.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Retail Ethical Sourcing
+              </a></h5>
+              <p class="challenge-text">How a brand can be an industry leader in ethical sourcing?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\money.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\online-banking.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Finance Banking
+              </a></h5>
+              <p class="challenge-text">How to avoid transition risk in light of APRA’s focus on climate-based vulnerability ?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\energy.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\ecosystem.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Energy Sector
+              </a></h5>
+              <p class="challenge-text">How can the energy industry move towards providing affordable renewable energy to the public?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\vaccine_img.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\vaccine.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Health Vaccine Rollout
+              </a></h5>
+              <p class="challenge-text">How can we get more people to vaccinate?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\mining_1.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\mining.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Mining Community Growth
+              </a></h5>
+              <p class="challenge-text">How can mining companies better allocate resources to regional communities?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\mining_2.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\data-mining.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Mining Automation
+              </a></h5>
+              <p class="challenge-text">What automation opportunities are available for mining companies, for ‘clean’ energy sources?</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="judging-criteria">
+    <h1>Hello from judging criteria</h1>
+  </section>
+
+  <section id="agenda">
+    <h1>Hello from agenda</h1>
+  </section>
+
+  <section id="prizes-content">
+    <div class="container-fluid prizes">
+      <h1 class="prize-amount">$10,000</h1>
+      <p class="prize-amount-other-prizes">
+        A pool and additional prizes will be allocated to the following
+        Awards:
+      </p>
+      <div class="container prizes-container">
+        <div class="prizes-cards">
+          <div class="prizes-image-container">
+            <img src="./styles/images/graph.svg" alt="graph" />
+          </div>
+          <p>Best Data Viz</p>
+        </div>
+        <div class="prizes-cards">
+          <div class="prizes-image-container">
+            <img src="./styles/images/puzzle.svg" alt="graph" />
+          </div>
+          <p>Best Overall Solution</p>
+        </div>
+        <div class="prizes-cards">
+          <div class="prizes-image-container">
+            <img src="./styles/images/frame.svg" alt="graph" />
+          </div>
+          <p>Best Design / User Experience</p>
+        </div>
+        <div class="prizes-cards">
+          <div class="prizes-image-container">
+            <img src="./styles/images/handheart.svg" alt="graph" />
+          </div>
+          <p>Most Unique Solution</p>
+        </div>
+        <div class="prizes-cards">
+          <div class="prizes-image-container">
+            <img src="./styles/images/educate.svg" alt="graph" />
+          </div>
+          <p>Best Project Presentation</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="btnSponsor">Become a Participant</button>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="about-d4sg">
+        <h1 class="about-heading">What is D4SG?</h1>
         <div class="row">
-          <div class="col paragraph">
-            <p>
-              Hackathons have some clear advantages over traditional innovation
-              management processes. They are inclusive, agile, promote
-              multidisciplinary collaboration, and have shorter innovation cycles
-              that are better suited to addressing fast-changing consumer demands.
+          <div class="col-12 col-lg-6 col-md-6 about-image">
+            <img src="styles\images\D4SG-RGB-Logo-RIcon-Colour-4.png" alt="about image" style="width: 50%" />
+          </div>
+          <div class="col-12 col-lg-6 col-md-6">
+            <p class="about-text">
+              The D4SG (Data for Social Good) Hackathon aims to promote social
+              good through technology and computer science, and to drive
+              sustained innovation and crowd-source solutions to address
+              pressing real-life business problems and social issues.
+            </p>
+            <p class="about-text">
+              We are bringing together +100 passionate and innovative
+              technologists to build software solutions that address specific
+              challenges facing industry today. The panel of subject matter
+              experts will ensure an accurate, fair and transparent process.
             </p>
           </div>
         </div>
-        <h1>Want to know more? speak with us!</h1>
-        <div class="btn-container">
-          <button class="btnSponsor">Become a Sponsor</button>
-        </div>
       </div>
-    </section>
-    
 
-      <section id="existing-sponsors">
-        <h1>Hello from existing sponsors</h1>
-      </section>
-
-    
-    <section id='participant-registration'>
-      <div class='container'>
-        <div class="participant-register">
-          <h1 class='participant-register-heading'>
-            Participant Registration
-          </h1>
-          <a href="https://0dk8hmoo8rn.typeform.com/to/RLjkSM90">Proceed to registering as Participant</a></strong>
-        </div>
-      </div>
-    </section>
-
-    <section id='footer'>
-      <footer class="footer">
-        <div class="row footer-content">
-          <div class="col footer-logo">
-            <div class="footer-image">
-              <img src="./styles/images/D4SG-RGB-Logo-RIcon-Background-Colour-3.jpg" alt="logo" />
-            </div>
-            <div class="social-medias">
-              <a href="#" class="fab fa-lg fa-facebook-square"></a>
-              <a href="#" class="fab fa-lg fa-github"></a>
-              <a href="#" class="fab fa-lg fa-linkedin"></a>
-              <a href="#" class="fab fa-lg fa-meetup"></a>
-              <a href="#" class="far fa-lg fa-envelope"></a>
-            </div>
+      <div class="about-dsai">
+        <h1 class="about-heading">About DSAi</h1>
+        <div class="row">
+          <div class="col-12 col-lg-6 col-md-6 about-image">
+            <img src="styles\images\white_logo.png" alt="about image" style="width: 50%" />
           </div>
-      
-          <div class="col footer-navigation">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#challenges">Challenges</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#judging-criteria">Judging criteria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#agenda">Agenda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#about">About D4SG</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#existing-sponsors">Our sponsors</a>
-              </li>
-            </ul>
+          <div class="col-12 col-lg-6 col-md-6">
+            <p class="about-text">
+              The Data Science and AI Association of Australia is a
+              non-for-profit association determined to connect the data
+              scientist and machine learning community of Australia seeking to
+              gain and share knowledge, grow their network and collaborate on
+              projects.
+            </p>
+            <p class="about-text">
+              Since its inception in 2019, DSAi has committed to hosting and
+              organising a range of activities like meetups, workshops, study
+              groups and publications, aimed to helping professionals
+              understand industry trends, employment scenarios and stay on top
+              of the latest research.
+            </p>
           </div>
         </div>
-        <div class="copyright">
-          <p>© 2021 DSAI | Data Science and AI Association of Australia</p>
+      </div>
+  </section>
+
+  <section>
+    <div class="becomeSponsor">
+      <div class="row">
+        <div class="col">
+          <h1>Why Should you partner</h1>
+          <h1>the D4SG Hackathon?</h1>
         </div>
-      </footer>
-    </section>
-    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="index.js"></script>
-    
-  </body>
+      </div>
+      <div class="row">
+        <div class="col paragraph">
+          <p>
+            Hackathons have some clear advantages over traditional innovation
+            management processes. They are inclusive, agile, promote
+            multidisciplinary collaboration, and have shorter innovation cycles
+            that are better suited to addressing fast-changing consumer demands.
+          </p>
+        </div>
+      </div>
+      <h1>Want to know more? speak with us!</h1>
+      <div class="btn-container">
+        <button class="btnSponsor">Become a Sponsor</button>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="existing-sponsors">
+    <h1>Hello from existing sponsors</h1>
+  </section>
+
+
+  <section id='participant-registration'>
+    <div class='container'>
+      <div class="participant-register">
+        <h1 class='participant-register-heading'>
+          Participant Registration
+        </h1>
+        <a href="https://0dk8hmoo8rn.typeform.com/to/RLjkSM90">Proceed to registering as Participant</a></strong>
+      </div>
+    </div>
+  </section>
+
+  <section id='footer'>
+    <footer class="footer">
+      <div class="row footer-content">
+        <div class="col footer-logo">
+          <div class="footer-image">
+            <img src="./styles/images/D4SG-RGB-Logo-RIcon-Background-Colour-3.jpg" alt="logo" />
+          </div>
+          <div class="social-medias">
+            <a href="#" class="fab fa-lg fa-facebook-square"></a>
+            <a href="#" class="fab fa-lg fa-github"></a>
+            <a href="#" class="fab fa-lg fa-linkedin"></a>
+            <a href="#" class="fab fa-lg fa-meetup"></a>
+            <a href="#" class="far fa-lg fa-envelope"></a>
+          </div>
+        </div>
+
+        <div class="col footer-navigation">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#challenges">Challenges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#judging-criteria">Judging criteria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#agenda">Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About D4SG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#existing-sponsors">Our sponsors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2021 DSAI | Data Science and AI Association of Australia</p>
+      </div>
+    </footer>
+  </section>
+  <section id="credits">
+    <div id="expanding-cards-sample">
+      <div role="button" class="panel" style="background-image: url(https://picsum.photos/600)">
+        <h3>Lorem Ipsum</h3>
+      </div>
+      <div role="button" class="panel" style="background-image: url(https://picsum.photos/601)">
+        <h3>Lorem Ipsum</h3>
+      </div>
+      <div role="button" class="panel active" style="background-image: url(https://picsum.photos/602)">
+        <h3>Lorem Ipsum</h3>
+      </div>
+      <div role="button" class="panel" style="background-image: url(https://picsum.photos/603)">
+        <h3>Lorem Ipsum</h3>
+      </div>
+      <div role="button" class="panel" style="background-image: url(https://picsum.photos/604)">
+        <h3>Lorem Ipsum</h3>
+      </div>
+    </div>
+  </section>
+  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
 </html>
