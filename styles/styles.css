@@ -1,7 +1,7 @@
 /* Color codes and samples
 
 .dark-blue {
-  background-color: #252260;
+  background-color: ##262161;
   width: 200px;
   height: 100px;
 }
@@ -40,7 +40,7 @@ h5 {
 /* Navbar */
 
 .navbar-expand-lg {
-  background-color: #252260;
+  background-color: #262161;
 }
 
 .header-logo {
@@ -109,34 +109,33 @@ h5 {
 
 #challenges {
   background-color: #c0c0f6;
-  width:100%;
+  width: 100%;
   padding: 30px;
   color: #fff;
   text-align: center;
 }
-.challenges_oversec{
+.challenges_oversec {
   text-align: center;
   width: 100%;
   background-color: #c0c0f6;
-  color: #252260;
+  color: #262161;
 }
-.challenges_cardsec{
+.challenges_cardsec {
   margin: auto;
   position: relative;
   background-color: #c0c0f6;
-  width:auto;
+  width: auto;
   text-align: center;
-  }
+}
 
-.challenge{
+.challenge {
   text-align: center;
   padding: 30px;
   border-radius: 100%;
   margin-bottom: 20px;
-
 }
-.challenge-body{
-  background-color:  #252260;
+.challenge-body {
+  background-color: #262161;
   padding: 10px;
   font-weight: 400;
   position: relative;
@@ -145,45 +144,46 @@ h5 {
   border-radius: 0px 0px 10px 10px;
   }
 
-.card-icon{
+.card-icon {
   position: absolute;
-  margin:57% 31% 0% 39%;
-  width:22%;
-  z-index:2;
+  margin: 57% 31% 0% 39%;
+  width: 22%;
+  z-index: 2;
 }
 
-.card-circle{
+.card-circle {
   position: absolute;
   border-radius: 20px;
-  margin:52.5% 32.5% 0% 34%;
-  width:32%;
-  z-index:1;
+  margin: 52.5% 32.5% 0% 34%;
+  width: 32%;
+  z-index: 1;
 }
 
-.challenge-title{
+.challenge-title {
   padding-top: 20%;
   padding-bottom: 15%;
-  height:45%;
+  height: 45%;
 }
-.challenge-link{
+.challenge-link {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
-a.challenge-link:hover,a.challenge-link:active
-{color: #eeff04;
-font-size: 110%
+a.challenge-link:hover,
+a.challenge-link:active {
+  color: #eeff04;
+  font-size: 110%;
 }
 
-.challenge-text{
-  padding-bottom:5%;
+.challenge-text {
+  padding-bottom: 5%;
 }
 @media only screen and (max-width: 768px) {
-.challenge-text {
+  .challenge-text {
     font-size: auto;
   }
 }
 @media only screen and (max-width: 768px) {
-  .challenges_oversec{
+  .challenges_oversec {
     position: absolute;
   font-size: 50px;
   text-align: center;
@@ -193,11 +193,12 @@ font-size: 110%
 }
 
 }
-.cardimg{
-  width:5%;
+.cardimg {
+  width: 5%;
 }
 
 @media only screen and (max-width: 768px) {
+
   .challenge-body{
     background-color:  #252260;
     font-weight: 400;
@@ -231,7 +232,7 @@ font-size: 110%
       padding-bottom:0px;
     }
   }
-/* timelines */
+/* agenda */
 #Agenda{
   background-color: #c0c0f6;
 }
@@ -374,57 +375,12 @@ text-muted.{
   font-weight: bold;
 }
 
-
-#expanding-cards-sample {
-  display: flex;
-  width: 90vw;
-}
-.expanding-cards {
-  text-align: center;
-  width: 60%;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-}
-.panel {
-  position: relative;
-  cursor: pointer;
-  margin: 0 10px;
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 50px;
-  color: white;
-  height: 80vh;
-  flex: 0.2;
-  transition: flex 500ms ease-in;
-}
-.panel h3 {
-  position: absolute;
-  bottom: 25px;
-  left: 25px;
-  margin: 0;
-  opacity: 0;
-  transition: opacity 200ms ease-in 300ms;
-}
-.panel.active {
-  flex: 1;
-}
-.panel.active h3 {
-  opacity: 1;
-}
-
 /* Judging criteria */
-
-/* Agenda */
-
-
-
 
 /* Prizes */
 
 #prizes-content {
-  background-color: #252260;
+  background-color: #262161;
   padding: 30px;
   color: #fff;
 }
@@ -495,7 +451,7 @@ text-muted.{
 .about-dsai,
 .about-d4sg {
   padding: 3% 2%;
-  color: #252260;
+  color: #262161;
 }
 
 .about-heading {
@@ -523,7 +479,7 @@ text-muted.{
 
 .participant-register {
   padding: 3% 2%;
-  color: #252260;
+  color: #262161;
 }
 
 .participant-register-heading {
@@ -540,16 +496,16 @@ text-muted.{
   text-align: center;
   color: #fff;
   padding: 20px;
-  background-color: #252260;
+  background-color: #676ce4;
 }
 
 .becomeSponsor h1 {
-  width: 25%;
+  width: 100%;
   margin: 25px auto;
 }
 
 .paragraph {
-  max-width: 70%;
+  max-width: 80%;
   margin: 25px auto;
 }
 
@@ -578,7 +534,7 @@ text-muted.{
 
 .participant-register {
   padding: 3% 2%;
-  color: #252260;
+  color: #262161;
 }
 
 .participant-register-heading {
@@ -589,7 +545,7 @@ text-muted.{
 
 .footer {
   height: 300px;
-  background-color: #252260;
+  background-color: #262161;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -658,11 +614,6 @@ text-muted.{
   text-align: center;
 }
 
-/* Resposnive settings */
-
-/* @media (max-width: 962px) {
-} */
-
 /* Particles.js Module */
 
 /* ---- reset ---- */
@@ -678,46 +629,9 @@ canvas {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-color: #252260;
+  background-color: #262161;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-}
-
-/* ---- stats.js ---- */
-.count-particles {
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13e8e9;
-  font-size: 0.8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-}
-
-.js-count-particles {
-  font-size: 1.1em;
-}
-
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-
-.count-particles {
-  border-radius: 0 0 3px 3px;
 }
