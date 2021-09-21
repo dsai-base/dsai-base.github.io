@@ -134,11 +134,7 @@ h5 {
   margin-bottom: 20px;
 }
 .challenge-body {
-<<<<<<< HEAD
   background-color: #262161;
-=======
-  background-color: #252260;
->>>>>>> main
   padding: 10px;
   font-weight: 400;
   position: relative;
@@ -192,11 +188,7 @@ a.challenge-link:active {
     text-align: center;
     width: 100%;
     background-color: #c0c0f6;
-<<<<<<< HEAD
     color: #262161;
-=======
-    color: #252260;
->>>>>>> main
   }
 }
 .cardimg {
@@ -205,11 +197,7 @@ a.challenge-link:active {
 
 @media only screen and (max-width: 768px) {
   .challenge-body {
-<<<<<<< HEAD
     background-color: #262161;
-=======
-    background-color: #252260;
->>>>>>> main
     padding: 10px;
     font-weight: 400;
     position: relative;
@@ -223,51 +211,11 @@ a.challenge-link:active {
   border-radius: 15px 50px 0px 0px;
 }
 
-<<<<<<< HEAD
 /* Agenda */
 
 #agenda {
   height: 500px;
   background-color: #676ce4;
-=======
-#expanding-cards-sample {
-  display: flex;
-  width: 90vw;
-}
-.expanding-cards {
-  text-align: center;
-  width: 60%;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-}
-.panel {
-  position: relative;
-  cursor: pointer;
-  margin: 0 10px;
-  background-size: auto 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 50px;
-  color: white;
-  height: 80vh;
-  flex: 0.2;
-  transition: flex 500ms ease-in;
-}
-.panel h3 {
-  position: absolute;
-  bottom: 25px;
-  left: 25px;
-  margin: 0;
-  opacity: 0;
-  transition: opacity 200ms ease-in 300ms;
-}
-.panel.active {
-  flex: 1;
-}
-.panel.active h3 {
-  opacity: 1;
->>>>>>> main
 }
 
 /* Prizes */
