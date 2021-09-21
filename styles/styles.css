@@ -1,7 +1,7 @@
 /* Color codes and samples
 
 .dark-blue {
-  background-color: #252260;
+  background-color: ##262161;
   width: 200px;
   height: 100px;
 }
@@ -40,7 +40,7 @@ h5 {
 /* Navbar */
 
 .navbar-expand-lg {
-  background-color: #252260;
+  background-color: #262161;
 }
 
 .header-logo {
@@ -117,7 +117,7 @@ h5 {
   text-align: center;
   width: 100%;
   background-color: #c0c0f6;
-  color: #252260;
+  color: #262161;
 }
 .challenges_cardsec {
   margin: auto;
@@ -134,7 +134,11 @@ h5 {
   margin-bottom: 20px;
 }
 .challenge-body {
+<<<<<<< HEAD
+  background-color: #262161;
+=======
   background-color: #252260;
+>>>>>>> main
   padding: 10px;
   font-weight: 400;
   position: relative;
@@ -188,7 +192,11 @@ a.challenge-link:active {
     text-align: center;
     width: 100%;
     background-color: #c0c0f6;
+<<<<<<< HEAD
+    color: #262161;
+=======
     color: #252260;
+>>>>>>> main
   }
 }
 .cardimg {
@@ -197,7 +205,11 @@ a.challenge-link:active {
 
 @media only screen and (max-width: 768px) {
   .challenge-body {
+<<<<<<< HEAD
+    background-color: #262161;
+=======
     background-color: #252260;
+>>>>>>> main
     padding: 10px;
     font-weight: 400;
     position: relative;
@@ -211,6 +223,13 @@ a.challenge-link:active {
   border-radius: 15px 50px 0px 0px;
 }
 
+<<<<<<< HEAD
+/* Agenda */
+
+#agenda {
+  height: 500px;
+  background-color: #676ce4;
+=======
 #expanding-cards-sample {
   display: flex;
   width: 90vw;
@@ -248,16 +267,13 @@ a.challenge-link:active {
 }
 .panel.active h3 {
   opacity: 1;
+>>>>>>> main
 }
-
-/* Judging criteria */
-
-/* Agenda */
 
 /* Prizes */
 
 #prizes-content {
-  background-color: #252260;
+  background-color: #262161;
   padding: 30px;
   color: #fff;
 }
@@ -328,7 +344,7 @@ a.challenge-link:active {
 .about-dsai,
 .about-d4sg {
   padding: 3% 2%;
-  color: #252260;
+  color: #262161;
 }
 
 .about-heading {
@@ -356,7 +372,7 @@ a.challenge-link:active {
 
 .participant-register {
   padding: 3% 2%;
-  color: #252260;
+  color: #262161;
 }
 
 .participant-register-heading {
@@ -373,7 +389,7 @@ a.challenge-link:active {
   text-align: center;
   color: #fff;
   padding: 20px;
-  background-color: #252260;
+  background-color: #676ce4;
 }
 
 .becomeSponsor h1 {
@@ -411,7 +427,7 @@ a.challenge-link:active {
 
 .participant-register {
   padding: 3% 2%;
-  color: #252260;
+  color: #262161;
 }
 
 .participant-register-heading {
@@ -422,7 +438,7 @@ a.challenge-link:active {
 
 .footer {
   height: 300px;
-  background-color: #252260;
+  background-color: #262161;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -491,11 +507,6 @@ a.challenge-link:active {
   text-align: center;
 }
 
-/* Resposnive settings */
-
-/* @media (max-width: 962px) {
-} */
-
 /* Particles.js Module */
 
 /* ---- reset ---- */
@@ -511,46 +522,9 @@ canvas {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-color: #252260;
+  background-color: #262161;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-}
-
-/* ---- stats.js ---- */
-.count-particles {
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13e8e9;
-  font-size: 0.8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-}
-
-.js-count-particles {
-  font-size: 1.1em;
-}
-
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-
-.count-particles {
-  border-radius: 0 0 3px 3px;
 }
