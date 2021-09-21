@@ -128,12 +128,22 @@ particlesJS("particles-js",
     }
     );
 
-//On click of "Register as participant" button, open Participant Registration Form in new window
-document.getElementById("participantButton").onclick = function () {
+//Click of Header Section Participant button, open Participant Registration Form in new window
+document.getElementById("headerParticipantButton").onclick = function () {
   window.open("https://5oz7vzaelgj.typeform.com/to/NZVoNLKE");
 };
 
-//On click of "Register as sponsor" button, open Sponsor Registration Form in new window
-document.getElementById("sponsorButton").onclick = function () {
-  window.open("https://0dk8hmoo8rn.typeform.com/to/LagTDq2G");
+//Click of Header Section Sponsor button, open Sponsor Registration Form in new window
+document.getElementById("headerSponsorButton").onclick = function () {
+  window.open("https://5oz7vzaelgj.typeform.com/to/nNnYWXLo");
+}
+
+//Click of Prizes section Participant button, open Participant Registration Form in new window
+document.getElementById("prizesParticipantButton").onclick = function () {
+  window.open("https://5oz7vzaelgj.typeform.com/to/NZVoNLKE");
+};
+
+//Click of Sponsor page sponsor button, open Sponsor Registration Form in new window
+document.getElementById("sponsorPageButton").onclick = function () {
+  window.open("https://5oz7vzaelgj.typeform.com/to/nNnYWXLo");
 }
