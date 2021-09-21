@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,16 +13,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,300&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-
   <!-- CSS -->
   <link rel="stylesheet" href="styles/styles.css" />
   <title>D4SG Hackathon</title>
 </head>
-
 <body>
 
   <section id="navbar">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-section">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="styles\images\D4SG-RGB-Logo-RIcon-Background-Colour-3.jpg" alt="navbar-logo" width="100" />
@@ -39,12 +36,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#judging-criteria">
-                Judging criteria
+              <a class="nav-link" aria-current="page" href="#agenda">
+                Agenda
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#agenda">Agenda
+              <a class="nav-link" aria-current="page" href="#prizes-content">
+                Prizes
               </a>
             </li>
             <li class="nav-item">
@@ -52,16 +50,11 @@
                 About D4SG
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#existing-sponsors">Our sponsors
-              </a>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
   </section>
-
 
   <section id='header'>
     <div class="container-fluid header-container">
@@ -99,7 +92,7 @@
   </section>
 
   <section id="challenges">
-    <div class="container">
+    <div class="container challenges-container">
       <div class="challenges_oversec">
         <h1>Challenges</h1>
       </div>
@@ -132,7 +125,7 @@
         </div>
         <div class="col challenge">
           <div class="card h-100px cardchallenge">
-            <img src="styles\images\cotton.jpg" class="card-img-top" "cardimg" alt="...">
+            <img src="styles\images\cotton.jpg" class="card-img-top" alt="...">
             <img src="styles\images\t-shirt.png" class="card-icon" alt="...">
             <img src="styles\images\white circle.png" class="card-circle" alt="...">
             <div class="challenge-body">
@@ -208,16 +201,12 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
-  <section id="judging-criteria">
-    <h1>Hello from judging criteria</h1>
-  </section>
-
-  <section id="agenda">
+ <section id="agenda">
+   <div class='agenda-container'></div>
     <h1>Hello from agenda</h1>
   </section>
 
@@ -268,7 +257,7 @@
   </section>
 
   <section id="about">
-    <div class="container">
+    <div class="container about-container">
       <div class="about-d4sg">
         <h1 class="about-heading">What is D4SG?</h1>
         <div class="row">
@@ -291,7 +280,6 @@
           </div>
         </div>
       </div>
-
       <div class="about-dsai">
         <h1 class="about-heading">About DSAi</h1>
         <div class="row">
@@ -343,11 +331,6 @@
     </div>
   </section>
 
-
-  <section id="existing-sponsors">
-    <h1>Hello from existing sponsors</h1>
-  </section>
-
   <section id='footer'>
     <footer class="footer">
       <div class="row footer-content">
@@ -389,29 +372,10 @@
       </div>
     </footer>
   </section>
-  <section id="credits">
-    <div id="expanding-cards-sample">
-      <div role="button" class="panel" style="background-image: url(https://picsum.photos/600)">
-        <h3>Lorem Ipsum</h3>
-      </div>
-      <div role="button" class="panel" style="background-image: url(https://picsum.photos/601)">
-        <h3>Lorem Ipsum</h3>
-      </div>
-      <div role="button" class="panel active" style="background-image: url(https://picsum.photos/602)">
-        <h3>Lorem Ipsum</h3>
-      </div>
-      <div role="button" class="panel" style="background-image: url(https://picsum.photos/603)">
-        <h3>Lorem Ipsum</h3>
-      </div>
-      <div role="button" class="panel" style="background-image: url(https://picsum.photos/604)">
-        <h3>Lorem Ipsum</h3>
-      </div>
-    </div>
-  </section>
+
   <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="index.js"></script>
 
 </body>
-
 </html>
