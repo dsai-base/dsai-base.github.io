@@ -127,4 +127,13 @@ particlesJS("particles-js",
       "retina_detect":true
     }
     );
- 
+
+//On click of "Register as participant" button, open Participant Registration Form in new window
+document.getElementById("participantButton").onclick = function () {
+  window.open("https://5oz7vzaelgj.typeform.com/to/NZVoNLKE");
+};
+
+//On click of "Register as sponsor" button, open Sponsor Registration Form in new window
+document.getElementById("sponsorButton").onclick = function () {
+  window.open("https://0dk8hmoo8rn.typeform.com/to/u2VTY9e5");
+}
