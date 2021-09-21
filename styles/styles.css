@@ -106,6 +106,7 @@ h5 {
 
 /* Challenges */
 
+
 #challenges {
   background-color: #c0c0f6;
   width: 100%;
@@ -138,10 +139,10 @@ h5 {
   padding: 10px;
   font-weight: 400;
   position: relative;
-  height: 250px;
-  padding-bottom: 30px;
-  border-radius: 0px 0px 10px 50px;
-}
+  height:220px;
+  padding-bottom: 20px;
+  border-radius: 0px 0px 10px 10px;
+  }
 
 .card-icon {
   position: absolute;
@@ -184,39 +185,197 @@ a.challenge-link:active {
 @media only screen and (max-width: 768px) {
   .challenges_oversec {
     position: absolute;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
-    background-color: #c0c0f6;
-    color: #262161;
-  }
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  background-color: #c0c0f6;
+  color: #252260;
+}
+
 }
 .cardimg {
   width: 5%;
 }
 
 @media only screen and (max-width: 768px) {
-  .challenge-body {
-    background-color: #262161;
-    padding: 10px;
+
+  .challenge-body{
+    background-color:  #252260;
     font-weight: 400;
+    font-size: 80%;
     position: relative;
-    width: auto;
+    width:auto;
+    }
+    .challenge-title{
+      font-size: 120%;
+      padding-bottom:0px;
+    }
   }
+.cardchallenge{
+  border-radius: 10px 10px 10px 10px;
+  border-color:#c0c0f6;
 }
-.cardchallenge {
-  border-radius: 15px 50px 30px 50px;
-}
-.card-img-top {
-  border-radius: 15px 50px 0px 0px;
+.card-img-top{
+  border-radius:10px 10px 0px 0px;
 }
 
-/* Agenda */
-
-#agenda {
-  height: 500px;
-  background-color: #676ce4;
+@media only screen and (max-width: 1024px) {
+  .challenge-body{
+    background-color:  #252260;
+    font-weight: 400;
+    font-size: 80%;
+    position: relative;
+    width:auto;
+    }
+    .challenge-title{
+      font-size: 120%;
+      padding-bottom:0px;
+    }
+  }
+/* agenda */
+#Agenda{
+  background-color: #c0c0f6;
 }
+
+.card-body{
+  background-color: #c0c0f6!important;
+  }
+.events_content{
+  width:100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.hori-timeline .events {
+    border-top: 3px solid #e9ecef;
+}
+.hori-timeline .events .event-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+}
+.hori-timeline .events .event-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+}
+.hori-timeline .events .event-list .event-date {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+@media (min-width: 1140px) {
+    .hori-timeline .events .event-list {
+        display: inline-block;
+        width: 24%;
+        padding-top: 45px;
+    }
+    .hori-timeline .events .event-list .event-date {
+        top: -12px;
+    }
+}
+
+
+.bg-soft-danger {
+    background-color:#252260!important;
+    color:#c0c0f6;
+}
+
+}
+.card {
+    border: none;
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+    box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+}
+
+.timeline_title{
+  display: flex;
+  justify-content: center;
+  color:#252260;
+  padding-bottom: 1%;
+}
+.timeline_allcontent{
+  width: 70%;
+  margin: 0% 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.event_title{
+  width:50%;
+  margin-left: 25%;
+}
+
+@media only screen and (min-width: 415px)
+{
+  .event_title{
+    width:auto;
+    margin-left:auto;
+}
+}
+
+
+
+.readmore{
+  background-color: #fff;!important;
+  border-color: #252260;!important;
+  color:#252260;
+  }
+
+.readmore:hover {
+  background-color: #eeff04;
+  color:#252260;
+}
+
+text-muted.{
+  color:rgb(82, 79, 79);
+  }
+.card{
+  border-color: #c0c0f6;
+}
+#offcanvasExample1 {
+  background-color: #c0c0f6;
+}
+
+#offcanvasExample2 {
+  background-color: #c0c0f6;
+}
+#offcanvasExample3 {
+  background-color: #c0c0f6;
+}
+#offcanvasExample4 {
+  background-color: #c0c0f6;
+}
+
+.offcanvas-body{
+  text-align: left;
+  color: #252260;
+}
+
+.offcanvas-title{
+  color:#252260;
+}
+.column1{
+  vertical-align: top;
+  width: 100px;
+  text-align: center;
+  color: #252260;
+  font-weight: bold;
+}
+
+/* Judging criteria */
 
 /* Prizes */
 
