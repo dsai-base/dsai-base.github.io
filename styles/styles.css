@@ -624,6 +624,13 @@ a.challenge-link:active {
 
 .developers-content a {
   width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .developers-content img {
