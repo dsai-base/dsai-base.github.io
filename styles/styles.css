@@ -290,7 +290,7 @@ a.challenge-link:active {
     color:#c0c0f6;
 }
 
-}
+
 .card {
     border: none;
     margin-bottom: 24px;
@@ -326,18 +326,18 @@ a.challenge-link:active {
 
 
 
-.readmore{
+/* .readmore{
   background-color: #fff;!important;
   border-color: #252260;!important;
   color:#252260;
-  }
+  } */
 
 .readmore:hover {
   background-color: #eeff04;
   color:#252260;
 }
 
-text-muted.{
+.text-muted{
   color:rgb(82, 79, 79);
   }
 .card{
