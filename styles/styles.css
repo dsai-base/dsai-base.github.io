@@ -183,7 +183,6 @@ a.challenge-link:active {
 }
 @media only screen and (max-width: 768px) {
   .challenges_oversec {
-    position: absolute;
     font-size: 50px;
     text-align: center;
     width: 100%;
