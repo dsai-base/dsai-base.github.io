@@ -84,25 +84,55 @@ h5 {
 }
 
 .call-to-action-header-button {
-  background-color: #eeff04;
-  width: 30%;
-  margin: 1% 0;
-  padding: 1% 2%;
+  background-color: #262161;
+  margin: 2% 0;
+  padding: 2% 3%;
   text-align: center;
+  color: #eeff04;
+  border-color: #eeff04;
+  border-width: medium;
+  transition: all 200ms ease;
+  font-weight: 100;
 }
 
-.call-to-action-header-button:hover {
-  color: #676ce4;
-}
-
-.call-to-action-header-button-sponsor {
+.call-to-action-header-button:hover,
+.call-to-action-header-button-sponsor:hover {
+  color: #262161;
   background-color: #c0c0f6;
-  width: 30%;
-  padding: 1% 2%;
-  margin: 1% 0;
-  text-align: center;
-  color: #fff;
+  border-color: #fff;
 }
+
+.header-button-image {
+  margin-right: 15px;
+}
+
+/* @media (max-width: 640px) {
+  .call-to-action-header-button,
+  .call-to-action-header-button-sponsor {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .call-to-action-header-button,
+  .call-to-action-header-button-sponsor {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .call-to-action-header-button,
+  .call-to-action-header-button-sponsor {
+    width: 35%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .call-to-action-header-button,
+  .call-to-action-header-button-sponsor {
+    width: 50%;
+  }
+} */
 
 /* Challenges */
 
