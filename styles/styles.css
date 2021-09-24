@@ -35,6 +35,7 @@ h4,
 h5 {
   font-family: "Lato", sans-serif;
   font-weight: 900;
+  padding-top: 7%;
 }
 
 /* Navbar */
@@ -105,34 +106,6 @@ h5 {
 .header-button-image {
   margin-right: 15px;
 }
-
-/* @media (max-width: 640px) {
-  .call-to-action-header-button,
-  .call-to-action-header-button-sponsor {
-    width: 80%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .call-to-action-header-button,
-  .call-to-action-header-button-sponsor {
-    width: 40%;
-  }
-}
-
-@media (max-width: 1366px) {
-  .call-to-action-header-button,
-  .call-to-action-header-button-sponsor {
-    width: 35%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .call-to-action-header-button,
-  .call-to-action-header-button-sponsor {
-    width: 50%;
-  }
-} */
 
 /* Challenges */
 
@@ -267,6 +240,7 @@ a.challenge-link:active {
 
 .card-body {
   background-color: #c0c0f6 !important;
+  padding-bottom: 5%;
 }
 .events_content {
   width: 100%;
@@ -401,7 +375,7 @@ a.challenge-link:active {
 
 #prizes-content {
   background-color: #262161;
-  padding: 30px;
+  padding-bottom: 5%;
   color: #fff;
 }
 
@@ -474,13 +448,17 @@ a.challenge-link:active {
   color: #262161;
 }
 
+.about-dsai {
+  padding-bottom: 5%;
+}
+
 .about-heading {
-  padding: 3% 0;
+  padding-bottom: 2%;
 }
 
 .about-text {
   text-align: left;
-  line-height: 2.5;
+  line-height: 2;
   color: rgb(82, 79, 79);
 }
 
@@ -517,20 +495,21 @@ a.challenge-link:active {
   color: #fff;
   padding: 20px;
   background-color: #676ce4;
+  padding-bottom: 5%;
 }
 
 .becomeSponsor h1 {
   width: 100%;
-  margin: 25px auto;
+  margin: 0 auto 3% auto;
 }
 
 .paragraph {
   max-width: 80%;
-  margin: 25px auto;
+  margin: 25px auto 0 auto;
 }
 
 .becomeSponsor p {
-  margin: 50px auto;
+  margin: 0 auto;
   font-size: 25px;
 }
 
@@ -538,12 +517,11 @@ a.challenge-link:active {
   border: none;
   padding: 20px;
   font-size: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   margin-top: 20px;
   background-color: #eeff04;
+  color: #262161;
 }
-
-/* Existing sponsors */
 
 /* Participant Registration */
 
