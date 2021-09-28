@@ -484,6 +484,29 @@ a.challenge-link:active {
   padding: 3% 0;
 }
 
+/* Existing Sponsors */
+
+#sponsors {
+  background-color: #eeff04;
+  color: #262161;
+  text-align: center;
+}
+
+.sponsor-box {
+  text-align: center;
+}
+
+.sponsor-fluid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-container {
+  margin-bottom: 30px;
+}
+
 /* Become a sponor */
 
 .becomeSponsor {
