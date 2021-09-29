@@ -492,10 +492,6 @@ a.challenge-link:active {
   text-align: center;
 }
 
-.sponsor-box {
-  text-align: center;
-}
-
 .sponsor-fluid-container {
   display: flex;
   flex-direction: column;
@@ -505,6 +501,11 @@ a.challenge-link:active {
 
 .sponsor-container {
   margin-bottom: 30px;
+}
+
+.sponsor-container img {
+  width: 75%;
+  height: 200px;
 }
 
 /* Become a sponor */
